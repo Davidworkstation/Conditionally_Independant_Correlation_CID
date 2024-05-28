@@ -16,20 +16,21 @@ note: depending on your python setup, you may have to include 'python' or 'pytho
 
 ## Project Structure
 Overview of the project's structure:
+
 project-root/
-│
+
 ├── CID_data/
 │ └── csv/ - Raw data files. Includes hypothetical company names, and default probabilities.
-│
+
 ├── py/ - CID_multi_portfolio - A model that plots the CID model using the CID Data. Plots only the min, max, and quantiles.
 ├── png/ - CID_Output_Example - 9 plots showcasing the behavior of the CID.
-│
+
 ├── py/ - CID_Single_Example - a single CID plot that showcases the model on theoretical data
 ├── py/ - CID_streamlit_demo - functional CID dashboard on streamlit
-│
+
 ├── png/ - CID_streamlitapp_demo_image - image preview of the dashboard
 ├── png/ - Generate_Probability_Default_Data - generates CID data, based on different standard deviations.
-│
+
 ├── .gitignore - Git ignore file
 ├── requirements.txt - Project dependencies
 ├── .gitatributes - Text handling
