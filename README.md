@@ -1,6 +1,8 @@
 # Conditionally_Independant_Correlation_CID
  The Conditionally Independent model (CID) is a statistical model used to describe the joint distribution of multiple variables. It assumes that the variables are marginally independent but can exhibit dependence when conditioned on a subset of variables. This allows CID to capture complex dependencies that traditional models may overlook.
 
+![Alt Text](CID_Output_Example.png)
+
 ## Installation
 To install the project dependencies, run:
 pip install -r requirements.txt
@@ -13,6 +15,7 @@ streamlit run CID_streamlit_demo.py
 
 note: depending on your python setup, you may have to include 'python' or 'python3' in front of the command.
 
+![Alt Text](CID_streamlitapp_demo_image.png)
 
 ## Project Structure
 Overview of the project's structure:
